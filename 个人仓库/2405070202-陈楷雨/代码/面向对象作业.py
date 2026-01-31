@@ -194,4 +194,3 @@ if __name__ == "__main__":
     # 7. 总部统计数据（验证跨校区后学员归属）
     print("\n--- 统计全机构数据 ---")
     headquarter.count_staff_num()
-    headquarter.count_stu_num()
