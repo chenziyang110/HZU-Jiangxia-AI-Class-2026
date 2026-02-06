@@ -1,0 +1,13 @@
+# 忽略所有图片/数据集
+*.jpg *.png *.jpeg *.bmp *.gif *.tiff
+data/ dataset/ images/ raw/ test_img/ train_img/
+
+# 忽略模型权重文件
+*.pth *.pt *.h5 *.ckpt *.pkl *.bin *.weights
+
+# 忽略压缩包/大文件
+*.zip *.rar *.7z *.tar *.gz *.mp4 *.avi
+
+# 忽略Git子仓库/临时文件
+**/.git/
+*.tmp *.log *.pyc __pycache__/
